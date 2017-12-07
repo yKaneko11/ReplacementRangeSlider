@@ -1,0 +1,16 @@
+PODS:
+  - ReplacementRangeSlider (0.1.0)
+
+DEPENDENCIES:
+  - ReplacementRangeSlider (from `../`)
+
+EXTERNAL SOURCES:
+  ReplacementRangeSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReplacementRangeSlider: 6837904f79c2ccdc1bd5f61510eadfac6700b3d3
+
+PODFILE CHECKSUM: 8c4a5e139efe45f7a444df42c8ef6c2eee1f053c
+
+COCOAPODS: 1.2.1

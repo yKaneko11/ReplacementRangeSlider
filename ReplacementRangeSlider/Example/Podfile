@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ReplacementRangeSlider_Example' do
+  pod 'ReplacementRangeSlider', :path => '../'
+
+  target 'ReplacementRangeSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,22 @@
+{
+  "name": "ReplacementRangeSlider",
+  "version": "0.1.0",
+  "summary": "A short description of ReplacementRangeSlider.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yKaneko11/ReplacementRangeSlider",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yKaneko11": "yurina_kaneko@gdo.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/yKaneko11/ReplacementRangeSlider.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ReplacementRangeSlider/Classes/**/*"
+}
