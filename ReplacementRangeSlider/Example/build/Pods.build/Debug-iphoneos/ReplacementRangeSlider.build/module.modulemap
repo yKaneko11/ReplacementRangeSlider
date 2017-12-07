@@ -1,0 +1,11 @@
+framework module ReplacementRangeSlider {
+  umbrella header "ReplacementRangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ReplacementRangeSlider.Swift {
+    header "ReplacementRangeSlider-Swift.h"
+    requires objc
+}

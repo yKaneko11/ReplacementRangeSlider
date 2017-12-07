@@ -1,0 +1,10 @@
+framework module ReplacementRangeSlider {
+  umbrella header "ReplacementRangeSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ReplacementRangeSlider.__Swift {
+    exclude header "ReplacementRangeSlider-Swift.h"
+}
