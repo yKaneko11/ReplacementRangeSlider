@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 
-![image3](https://github.com/yKaneko11/image/blob/master/image3.png)
+![image3](https://raw.githubusercontent.com/yKaneko11/image/master/image3.png)
 
 ## Example
 
@@ -26,11 +26,11 @@ pod 'ReplacementRangeSlider'
 
 Please specify ReplacementRangeSlider for class of storyboard
 
-![image1](https://github.com/yKaneko11/image/blob/master/image1.png)
+![image1](https://raw.githubusercontent.com/yKaneko11/image/master/image1.png)
 
 You can specify each element
 
-![image2](https://github.com/yKaneko11/image/blob/master/image2.png)
+![image2](https://raw.githubusercontent.com/yKaneko11/image/master/image2.png)
 
 ### Examples
 
