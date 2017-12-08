@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 
+![image3](https://github.com/yKaneko11/image/blob/master/image3.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
