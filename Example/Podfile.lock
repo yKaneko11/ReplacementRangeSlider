@@ -1,11 +1,11 @@
 PODS:
-  - ReplacementRangeSlider (0.1.1)
+  - ReplacementRangeSlider (0.1.2)
 
 DEPENDENCIES:
   - ReplacementRangeSlider
 
 SPEC CHECKSUMS:
-  ReplacementRangeSlider: 61e3c0cc9a3661a5b74f9a90d2deec056a6bdd27
+  ReplacementRangeSlider: adeaf5877ab61292b53a62d7d1a698024857cbf4
 
 PODFILE CHECKSUM: dbf3ba9346a4fe64cd060d8e0855811bece76121
 

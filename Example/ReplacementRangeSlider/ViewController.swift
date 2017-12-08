@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import ReplacementRangeSlider
 
-class ViewController: UIViewController ,ReplacementRangeSlider{
-    func RangeSliderValueChanged(min: CGFloat, max: CGFloat) {
+class ViewController: UIViewController , ReplacementRangeSliderDelegate{
+    func ReplacementRangeSliderValueChanged(min: CGFloat, max: CGFloat) {
         minLabel.text = String(format: "%f", roundf(Float(min / 1000)) * 1000)
         maxLabel.text = String(format: "%f", roundf(Float(max / 1000)) * 1000)
     }
