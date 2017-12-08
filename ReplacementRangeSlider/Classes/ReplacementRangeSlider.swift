@@ -9,34 +9,34 @@
 import Foundation
 import UIKit
 
-protocol ReplacementRangeSliderDelegate: class {
-
+public protocol ReplacementRangeSliderDelegate: class {
+    
     func ReplacementRangeSliderValueChanged(min: CGFloat, max: CGFloat)
 }
 
-class ReplacementRangeSlider: UIView {
-
-    @IBInspectable var minimumValue: CGFloat = 0.0
-
-    @IBInspectable var maximumValue: CGFloat = 0.0
-
-    @IBInspectable var maxValue: CGFloat = 0.0
-
-    @IBInspectable var minValue: CGFloat = 0.0
-
-    @IBInspectable var moveValue: CGFloat = 0.0
-
-    @IBInspectable var circleSize: CGFloat = 0.0
-
-    @IBInspectable var slideBackgroundColor : UIColor = UIColor.black
-
-    @IBInspectable var barHeight: CGFloat = 0.0
-
-    @IBInspectable var leftThumbColor : UIColor = UIColor.black
-
-    @IBInspectable var rightThumbColor : UIColor = UIColor.black
-
-    weak var delegate: ReplacementRangeSliderDelegate?
+public class ReplacementRangeSlider: UIView {
+    
+    @IBInspectable public var minimumValue: CGFloat = 0.0
+    
+    @IBInspectable public var maximumValue: CGFloat = 0.0
+    
+    @IBInspectable public var maxValue: CGFloat = 0.0
+    
+    @IBInspectable public var minValue: CGFloat = 0.0
+    
+    @IBInspectable public var moveValue: CGFloat = 0.0
+    
+    @IBInspectable public var circleSize: CGFloat = 0.0
+    
+    @IBInspectable public var slideBackgroundColor : UIColor = UIColor.black
+    
+    @IBInspectable public var barHeight: CGFloat = 0.0
+    
+    @IBInspectable public var leftThumbColor : UIColor = UIColor.black
+    
+    @IBInspectable public var rightThumbColor : UIColor = UIColor.black
+    
+    public var delegate: ReplacementRangeSliderDelegate?
     
     var leftThumb: UIView = UIView()
     
@@ -48,15 +48,15 @@ class ReplacementRangeSlider: UIView {
     
     var coordinates: [String: CGFloat] = [:]
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
-    func setUp() {
+    public func setUp() {
         
         let min = (minValue - minimumValue) / maximumValue
         let max = maxValue / maximumValue
@@ -134,7 +134,7 @@ class ReplacementRangeSlider: UIView {
         
         bar.frame.origin.x = rightThumb.frame.origin.x
         bar.frame.size.width = leftThumb.frame.origin.x - rightThumb.frame.origin.x
-
+        
         if translationPoint.x > 0.0 {
             minValue = moveValue * CGFloat(checkMemory(point: point))
             minValue += minimumValue - moveValue
@@ -202,3 +202,4 @@ class ReplacementRangeSlider: UIView {
         return false
     }
 }
+

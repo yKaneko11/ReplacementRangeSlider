@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "45C7F3D769E28D6F5945ED514602B37B"
+               BlueprintIdentifier = "69C26CFE209875F9E9C14024C0F0523B"
                BuildableName = "Pods_ReplacementRangeSlider_Example.framework"
                BlueprintName = "Pods-ReplacementRangeSlider_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "45C7F3D769E28D6F5945ED514602B37B"
+            BlueprintIdentifier = "69C26CFE209875F9E9C14024C0F0523B"
             BuildableName = "Pods_ReplacementRangeSlider_Example.framework"
             BlueprintName = "Pods-ReplacementRangeSlider_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

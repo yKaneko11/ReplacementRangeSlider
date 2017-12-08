@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		03176177961EDF5DA85E616C /* Pods-ReplacementRangeSlider_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementRangeSlider_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReplacementRangeSlider_Tests/Pods-ReplacementRangeSlider_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		28D0142BED35039032FAA5B5 /* Pods-ReplacementRangeSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementRangeSlider_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReplacementRangeSlider_Example/Pods-ReplacementRangeSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3C81F0BBC8D0E193F8B74531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C81F0BBC8D0E193F8B74531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		54A663310358C05E442E7E47 /* Pods_ReplacementRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplacementRangeSlider_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ReplacementRangeSlider_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReplacementRangeSlider_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8DEFA98B6DE8090C321D4577 /* Pods_ReplacementRangeSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReplacementRangeSlider_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DAF361FD8CA59A17376B342 /* ReplacementRangeSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ReplacementRangeSlider.podspec; path = ../ReplacementRangeSlider.podspec; sourceTree = "<group>"; };
+		9DAF361FD8CA59A17376B342 /* ReplacementRangeSlider.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ReplacementRangeSlider.podspec; path = ../ReplacementRangeSlider.podspec; sourceTree = "<group>"; };
 		CD95D7D655F6F18AEF5FF00B /* Pods-ReplacementRangeSlider_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementRangeSlider_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReplacementRangeSlider_Example/Pods-ReplacementRangeSlider_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EECABB692CDCB763B1B83179 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EECABB692CDCB763B1B83179 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FDF13380603A8FAE214194A3 /* Pods-ReplacementRangeSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReplacementRangeSlider_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReplacementRangeSlider_Tests/Pods-ReplacementRangeSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
