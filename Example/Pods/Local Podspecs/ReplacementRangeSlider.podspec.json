@@ -1,15 +1,15 @@
 {
   "name": "ReplacementRangeSlider",
   "version": "0.1.0",
-  "summary": "A short description of ReplacementRangeSlider.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Useful extensions for UISlider.",
+  "description": "Useful extensions for UISlider.\nUISlider are extended.",
   "homepage": "https://github.com/yKaneko11/ReplacementRangeSlider",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yKaneko11": "yurina_kaneko@gdo.co.jp"
+    "yKaneko11": "nj0hzvkj@gmail.com"
   },
   "source": {
     "git": "https://github.com/yKaneko11/ReplacementRangeSlider.git",

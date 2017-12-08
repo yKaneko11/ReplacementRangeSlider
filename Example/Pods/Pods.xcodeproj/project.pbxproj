@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0329D7C0AAD6E98C5EA5DFAF58AEA618 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0D46950F0C957977B77D482C875AD551 /* ReplacementRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D11DC76D069D7107E509300E0C9C6 /* ReplacementRangeSlider-dummy.m */; };
 		1032C87C5651C7031F0A8A447EE0C845 /* Pods-ReplacementRangeSlider_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1110795ECBDDC5F5B3029C393FBF8F1 /* Pods-ReplacementRangeSlider_Tests-dummy.m */; };
-		36DBDC5E5C472FEDB95B098C570A155E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D55C91E37A4617BF1B0CF3F2D4897 /* ReplaceMe.swift */; };
+		1D3722B7BC04C36DCAF168771196ED26 /* ReplacementRangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B47427061922DC9C09BE7BA633A7191 /* ReplacementRangeSlider.swift */; };
 		4A5FBC58207BD9DFE65C28EBAE5F86CF /* Pods-ReplacementRangeSlider_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D772FDBBA225DA8FE81C93E0528768 /* Pods-ReplacementRangeSlider_Example-dummy.m */; };
-		4D1F28F74438E2F9328B896C6DCCC89B /* ReplacementRangeSlider-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142D11DC76D069D7107E509300E0C9C6 /* ReplacementRangeSlider-dummy.m */; };
 		5AE829AF6349211DD0F7732EDE747D49 /* Pods-ReplacementRangeSlider_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF6B4C0CCBC16BB9E7D398C2F548EE6F /* Pods-ReplacementRangeSlider_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C691AA767E8B53D9EE1B40704224B56 /* ReplacementRangeSlider-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CB44CA06E6B653C193FA97080BD411 /* ReplacementRangeSlider-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5E55A71E011C8B4B852B958310AE619 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -39,6 +39,7 @@
 		1CD428FA618DAAD55CB964F9A02BBD64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21CB44CA06E6B653C193FA97080BD411 /* ReplacementRangeSlider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReplacementRangeSlider-umbrella.h"; sourceTree = "<group>"; };
 		2F277F032DFADA8B586787E03B795CE8 /* Pods-ReplacementRangeSlider_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplacementRangeSlider_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B47427061922DC9C09BE7BA633A7191 /* ReplacementRangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplacementRangeSlider.swift; sourceTree = "<group>"; };
 		3B5C61963F3EA1E04EDE8FF25562A320 /* Pods_ReplacementRangeSlider_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplacementRangeSlider_Tests.framework; path = "Pods-ReplacementRangeSlider_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9C4A046EF375D7755AA3C8F267A3DF /* Pods-ReplacementRangeSlider_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReplacementRangeSlider_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4180851D3F3F02D23C2D43EDF6AE1E49 /* Pods-ReplacementRangeSlider_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplacementRangeSlider_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		A1110795ECBDDC5F5B3029C393FBF8F1 /* Pods-ReplacementRangeSlider_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReplacementRangeSlider_Tests-dummy.m"; sourceTree = "<group>"; };
 		ACCF4CF2A8DE0F335F7E17EC561AA171 /* Pods-ReplacementRangeSlider_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ReplacementRangeSlider_Tests.modulemap"; sourceTree = "<group>"; };
 		AFCE0A1C14DD7B4E6E0A4E0516DD0607 /* Pods-ReplacementRangeSlider_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReplacementRangeSlider_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B44D55C91E37A4617BF1B0CF3F2D4897 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		B923F5CB1E1AC42CBA9C651E58B57581 /* Pods-ReplacementRangeSlider_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReplacementRangeSlider_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C44095B3E69FE51873CC3954DAB78D64 /* Pods-ReplacementRangeSlider_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReplacementRangeSlider_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C977E83B4D4031E24A359181777DD87E /* Pods_ReplacementRangeSlider_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReplacementRangeSlider_Example.framework; path = "Pods-ReplacementRangeSlider_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,15 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D50496C7CBBD779A1FE666D43162E1A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B44D55C91E37A4617BF1B0CF3F2D4897 /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		141C5CA9B27F0F5CD62C964815218649 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +117,15 @@
 			);
 			name = "Pods-ReplacementRangeSlider_Example";
 			path = "Target Support Files/Pods-ReplacementRangeSlider_Example";
+			sourceTree = "<group>";
+		};
+		47B8910D00AEA62CEAF64466EC15E461 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B47427061922DC9C09BE7BA633A7191 /* ReplacementRangeSlider.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7C7F0695199A3FA7FCD6CF080BB51831 /* Support Files */ = {
@@ -174,7 +174,7 @@
 		ABCF79B62A75978C73EAAE3A89B2F206 /* ReplacementRangeSlider */ = {
 			isa = PBXGroup;
 			children = (
-				0D50496C7CBBD779A1FE666D43162E1A /* Classes */,
+				47B8910D00AEA62CEAF64466EC15E461 /* Classes */,
 			);
 			name = ReplacementRangeSlider;
 			path = ReplacementRangeSlider;
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A24B90623F7936C687D66F613BD1EB6 /* Build configuration list for PBXNativeTarget "ReplacementRangeSlider" */;
 			buildPhases = (
-				B9651EC71AD2DC508D960BA61466A598 /* Sources */,
+				1F245936FE0C632855E584E9447C64ED /* Sources */,
 				D85372BB71F264F65D82105B7258958D /* Frameworks */,
 				C6F71E3BFA29A9E19C6BD03E20CBA48A /* Headers */,
 			);
@@ -335,6 +335,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F245936FE0C632855E584E9447C64ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D46950F0C957977B77D482C875AD551 /* ReplacementRangeSlider-dummy.m in Sources */,
+				1D3722B7BC04C36DCAF168771196ED26 /* ReplacementRangeSlider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1FE6EF368FED79344A793D72AC379A01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,15 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A5FBC58207BD9DFE65C28EBAE5F86CF /* Pods-ReplacementRangeSlider_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9651EC71AD2DC508D960BA61466A598 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				36DBDC5E5C472FEDB95B098C570A155E /* ReplaceMe.swift in Sources */,
-				4D1F28F74438E2F9328B896C6DCCC89B /* ReplacementRangeSlider-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
