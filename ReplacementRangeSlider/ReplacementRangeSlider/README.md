@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'ReplacementRangeSlider'
 ```
 
+## Usage
+
+![image1](https://github.com/yKaneko11/image/blob/master/image1.png)
+
+
 ## Author
 
 yKaneko11
