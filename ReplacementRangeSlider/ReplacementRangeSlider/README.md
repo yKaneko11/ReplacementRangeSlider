@@ -23,9 +23,11 @@ pod 'ReplacementRangeSlider'
 ## Usage
 
 Please specify ReplacementRangeSlider for class of storyboard
+
 ![image1](https://github.com/yKaneko11/image/blob/master/image1.png)
 
 You can specify each element
+
 ![image2](https://github.com/yKaneko11/image/blob/master/image2.png)
 
 ### Examples
