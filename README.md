@@ -1,11 +1,12 @@
 # ReplacementRangeSlider
 
-[![CI Status](http://img.shields.io/travis/yKaneko11/ReplacementRangeSlider.svg?style=flat)](https://travis-ci.org/yKaneko11/ReplacementRangeSlider)
 [![Version](https://img.shields.io/cocoapods/v/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 [![License](https://img.shields.io/cocoapods/l/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 
 ![image3](https://raw.githubusercontent.com/yKaneko11/image/master/image3.png)
+
+[:embed]
 
 ## Example
 
