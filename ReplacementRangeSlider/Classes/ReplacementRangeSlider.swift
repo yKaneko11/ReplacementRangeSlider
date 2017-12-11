@@ -104,7 +104,7 @@ public class ReplacementRangeSlider: UIView {
         } else {
             valueChangeLeft(point: gestureRecognizer, translationPoint: point)
         }
-        delegate?.ReplacementRangeSliderValueChanged(min: minValue, max: maxValue)
+        delegate?.replacementRangeSliderValueChanged(min: minValue, max: maxValue)
     }
     
     @objc func didDragRightThumb(gestureRecognizer: UIPanGestureRecognizer) {
@@ -120,7 +120,7 @@ public class ReplacementRangeSlider: UIView {
         } else {
             valueChangeRight(point: gestureRecognizer, translationPoint: point)
         }
-        delegate?.ReplacementRangeSliderValueChanged(min: minValue, max: maxValue)
+        delegate?.replacementRangeSliderValueChanged(min: minValue, max: maxValue)
     }
     
     // MARK: Private Method
