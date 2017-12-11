@@ -11,46 +11,35 @@ import UIKit
 
 public protocol ReplacementRangeSliderDelegate: class {
     
-    /**
-     delegate
-     */
+    /// Delegate the moved value
+    ///
+    /// - Parameters:
+    ///   - min: min value
+    ///   - max: max value
     func replacementRangeSliderValueChanged(min: CGFloat, max: CGFloat)
 }
 
 public class ReplacementRangeSlider: UIView {
     
     @IBInspectable public var minimumValue: CGFloat = 0.0
-    
     @IBInspectable public var maximumValue: CGFloat = 0.0
-    
     @IBInspectable public var maxValue: CGFloat = 0.0
-    
     @IBInspectable public var minValue: CGFloat = 0.0
-    
     @IBInspectable public var moveValue: CGFloat = 0.0
-    
     @IBInspectable public var circleSize: CGFloat = 0.0
-    
-    @IBInspectable public var slideBackgroundColor : UIColor = UIColor.black
-    
+    @IBInspectable public var slideBackgroundColor: UIColor = UIColor.black
     @IBInspectable public var barHeight: CGFloat = 0.0
-    
-    @IBInspectable public var leftThumbColor : UIColor = UIColor.black
-    
-    @IBInspectable public var rightThumbColor : UIColor = UIColor.black
+    @IBInspectable public var leftThumbColor: UIColor = UIColor.black
+    @IBInspectable public var rightThumbColor: UIColor = UIColor.black
     
     public var delegate: ReplacementRangeSliderDelegate?
-    
     var leftThumb: UIView = UIView()
-    
     var rightThumb: UIView = UIView()
-    
     var sliderView: UIView = UIView()
-    
-    var bar = UIView()
-    
+    var bar: UIView = UIView()
     var coordinates: [String: CGFloat] = [:]
     
+    // MARK: - initialize
     override public init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -59,6 +48,7 @@ public class ReplacementRangeSlider: UIView {
         super.init(coder: aDecoder)
     }
     
+    // MARK: Public Method
     public func setUp() {
         
         let min = (minValue - minimumValue) / maximumValue
@@ -133,6 +123,7 @@ public class ReplacementRangeSlider: UIView {
         delegate?.ReplacementRangeSliderValueChanged(min: minValue, max: maxValue)
     }
     
+    // MARK: Private Method
     private func valueChangeLeft(point: UIPanGestureRecognizer, translationPoint: CGPoint) {
         
         bar.frame.origin.x = rightThumb.frame.origin.x
@@ -205,4 +196,3 @@ public class ReplacementRangeSlider: UIView {
         return false
     }
 }
-
