@@ -11,7 +11,10 @@ import UIKit
 
 public protocol ReplacementRangeSliderDelegate: class {
     
-    func ReplacementRangeSliderValueChanged(min: CGFloat, max: CGFloat)
+    /**
+     delegate
+     */
+    func replacementRangeSliderValueChanged(min: CGFloat, max: CGFloat)
 }
 
 public class ReplacementRangeSlider: UIView {

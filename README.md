@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/cocoapods/l/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 [![Platform](https://img.shields.io/cocoapods/p/ReplacementRangeSlider.svg?style=flat)](http://cocoapods.org/pods/ReplacementRangeSlider)
 
-![image3](https://raw.githubusercontent.com/yKaneko11/image/master/image3.png)
+![gifmovie](https://raw.githubusercontent.com/yKaneko11/image/master/movie.mov.gif)
 
 [:embed]
 
